@@ -11,7 +11,8 @@ Git commits use: name `Cornwall Daily`, email `theseawaycity@gmail.com`.
 ## Schedule
 - Runs each morning around 7 a.m. Eastern.
 - **Warm-up (until Nov 30, 2026):** at most **1** post per day, scheduled for **12:00 p.m.** Eastern.
-- **From Dec 1, 2026:** at most **3** posts per day at **8:30 a.m.**, **12:00 p.m.** and **6:00 p.m.** Eastern.
+- **From Dec 1, 2026:** at most **2** posts per day, at **8:30 a.m.** and **5:30 p.m.** Eastern.
+  The morning run schedules both slots (or fewer). The midday check (below) may replace or fill the 5:30 p.m. slot.
 - The maximum is a ceiling, not a quota. If fewer stories are good enough, post fewer. Zero is fine.
 - Never schedule a time that has already passed.
 
@@ -67,6 +68,19 @@ Pick up to the daily maximum. Don't pick weak stories to fill slots.
 ## Step 6: Log
 Append to `log.md`, one line per post: date | slot | category | headline | source URL | Buffer post id.
 Also add a line for notable rejected stories and the reason (short). Commit and push.
+
+## Midday check (separate run, about 1 p.m. Eastern)
+- Before Dec 1, 2026: do nothing except say "warm-up week, midday check skipped" in the final message.
+- From Dec 1:
+  1. Read `log.md` to see what the morning run scheduled today, and use Buffer `list_posts`
+     (status `scheduled`) to find today's 5:30 p.m. post, if there is one.
+  2. Gather only items published **since this morning's run** from the same sources, and screen them with the same rules as Step 2.
+  3. If there's no 5:30 p.m. post and a new item passes the screening, produce and schedule it for 5:30 p.m. (Steps 4–5).
+  4. If there is a 5:30 p.m. post, replace it only when a new item is **clearly** stronger: more timely, more useful,
+     or bigger local news. When in doubt, keep the existing post. To replace it, first move the old post to drafts
+     (`edit_post` with `saveToDraft: true`; don't delete it), then schedule the new one for 5:30 p.m.
+  5. Never touch a post that is due within the next 30 minutes or already sent.
+  6. Log what happened in `log.md` (added / replaced / no change, with the reason) and commit and push.
 
 ## Weekly report (Mondays)
 On Mondays, also use `get_aggregated_post_metrics` for the previous 7 days and add a short
