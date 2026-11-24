@@ -24,7 +24,13 @@ Check, at minimum:
 - https://choosecornwall.ca/news/ (business openings, economic development)
 - https://cornwalltourism.com/events (upcoming events)
 - https://theseeker.ca (culture, history)
-Use WebFetch/WebSearch. Only consider items published in the last ~3 days, or upcoming events in the next ~10 days.
+How to fetch (important): scheduled runs can't WebFetch an address unless it was given in the
+task's prompt or returned by a WebSearch. So: (1) WebFetch the source homepages above, which are
+listed in the task prompt; (2) if a fetch is refused, run WebSearch queries such as
+"Cornwall Ontario news", "cornwall.ca news", "Cornwall Seaway News", "Cornwall Ontario events this week",
+and WebFetch article URLs that appear in those results; (3) only WebFetch article links found on
+fetched pages or in search results. If everything is still refused, log it and stop. Never post unverified facts.
+Only consider items published in the last ~3 days, or upcoming events in the next ~10 days.
 
 ## Step 2: Screen
 Reject anything that is:
