@@ -6,6 +6,7 @@ date | slot | category | headline | source | buffer id
 2026-11-24 | 6:00 p.m. | NEWS | Winter parking rules are now in effect | City of Cornwall (cornwall.ca/winterparking) | 6b05ebbd3fa14bcb90be25a2 (added to log 2026-11-25; sent but not logged at the time)
 2026-11-25 | 12:00 p.m. | COMMUNITY | Free snowshoes for kids this winter | https://www.cornwallseawaynews.com/local/rotary-supports-youth-snowshoeing/ | 6b06d2d6e90f5f39bab0eb89
 2026-11-26 | 12:00 p.m. | NEWS | City grants for local non-profits get a refresh | https://theseeker.ca/2026/11/cornwall-refreshes-its-municipal-grants-program-with-four-funding-streams/ | 6b0824504ffbd8bc59ad7b14
+2026-11-27 | 12:00 p.m. | COMMUNITY | Help fill a micro home with toys for local kids | https://www.cornwallseawaynews.com/local/sparkys-toy-drive-running-until-dec-16/ | 6b0975b71fd46e62e741af69
 
 ## Considered and skipped
 - 2026-11-23: "Outstanding legal victory" in lawsuit (Seaway News): lawsuit, excluded topic.
@@ -27,3 +28,8 @@ date | slot | category | headline | source | buffer id
 - 2026-11-26: Choose Cornwall Year in Review meeting Dec 3: time/place not verifiable from listing; possible backup.
 - 2026-11-26: Nov 28 health-care rally (Seeker letter): political/advocacy, excluded.
 - 2026-11-26: Code Talkers of Akwesasne history feature (Seeker): good HISTORY backup.
+- 2026-11-27: Fetches of cornwallseawaynews.com (homepage, /local/), standard-freeholder.com, cornwalltourism.com/events, theseeker.ca refused (PROVENANCE_REQUIRED); worked around via WebSearch result URLs. cornwall.ca/en/news still stale (May 2026 items).
+- 2026-11-27: Cornwall Police NG911 launch moved up to Dec 10 (Seaway News): useful civic item; good backup.
+- 2026-11-27: Choose Cornwall Year in Review breakfast, Dec 3, Galaxy Cinemas, $25 (Choose Cornwall): verified; good BUSINESS backup for Dec 1-2.
+- 2026-11-27: Weekend community events (Seaway News, Nov 26 list): small items; possible roundup backup. Chanukah menorah lighting Dec 8 near city hall: backup for early Dec.
+- 2026-11-27: Council vacancy meeting, collision charges, assault/fraud items (Seaway News): political/crime, excluded.
