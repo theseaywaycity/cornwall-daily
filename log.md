@@ -7,6 +7,7 @@ date | slot | category | headline | source | buffer id
 2026-11-25 | 12:00 p.m. | COMMUNITY | Free snowshoes for kids this winter | https://www.cornwallseawaynews.com/local/rotary-supports-youth-snowshoeing/ | 6b06d2d6e90f5f39bab0eb89
 2026-11-26 | 12:00 p.m. | NEWS | City grants for local non-profits get a refresh | https://theseeker.ca/2026/11/cornwall-refreshes-its-municipal-grants-program-with-four-funding-streams/ | 6b0824504ffbd8bc59ad7b14
 2026-11-27 | 12:00 p.m. | COMMUNITY | Help fill a micro home with toys for local kids | https://www.cornwallseawaynews.com/local/sparkys-toy-drive-running-until-dec-16/ | 6b0975b71fd46e62e741af69
+2026-11-28 | 12:00 p.m. | EVENT | Weekend plans: a tea, euchre and a family breakfast | https://www.cornwallseawaynews.com/local/pop-in-this-weekend-november-27-29-2026/ (+ https://www.cornwallseawaynews.com/local/community-events-november-25-2026/) | 6b0ac738c6d7f1e7223f0bb7
 
 ## Considered and skipped
 - 2026-11-23: "Outstanding legal victory" in lawsuit (Seaway News): lawsuit, excluded topic.
@@ -33,3 +34,7 @@ date | slot | category | headline | source | buffer id
 - 2026-11-27: Choose Cornwall Year in Review breakfast, Dec 3, Galaxy Cinemas, $25 (Choose Cornwall): verified; good BUSINESS backup for Dec 1-2.
 - 2026-11-27: Weekend community events (Seaway News, Nov 26 list): small items; possible roundup backup. Chanukah menorah lighting Dec 8 near city hall: backup for early Dec.
 - 2026-11-27: Council vacancy meeting, collision charges, assault/fraud items (Seaway News): political/crime, excluded.
+- 2026-11-28: Fetches of cornwallseawaynews.com (homepage, /local/), standard-freeholder.com, cornwalltourism.com/events, theseeker.ca refused (PROVENANCE_REQUIRED); worked around via WebSearch result URLs. cornwall.ca/en/news still stale (May 2026 items).
+- 2026-11-28: Cornwall Santa Claus Parade 2026 (Seaway News, Nov 26): photo caption only, no details; skipped.
+- 2026-11-28: Upcoming items from Seaway News Nov 25 calendar kept as backups: Avonmore Christmas craft & bake sale Dec 5-6 (Tagwi SS); Nicholas Tea Dec 5; Lancaster Santa parade Dec 5; Chanukah menorah lighting Dec 8, 5:30 p.m. near city hall; Centennial Choir concert Dec 11.
+- 2026-11-28: Choose Cornwall Year in Review (Dec 3) and NG911 launch (Dec 10) still held for Dec 1+ two-slot days.
